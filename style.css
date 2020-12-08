@@ -1,0 +1,77 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: #bedbbb;
+    text-align: center;
+}
+
+h1{
+    color: #8db596;
+}
+
+p{
+    color: #707070;
+    
+}
+    #container{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+#userInput{
+    border-radius: 5px;
+	min-width: 35%;
+	padding: 5px;
+	border: none;
+}
+
+#enter{
+    border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #bedbbb;
+	background-color: #8db596;
+	transition: all 0.75s ease;
+}
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #8db596;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #8db596;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #bedbbb;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #8db596;
+	font-weight: 800;
+}
+
+
+.done {
+	background: #8db596 !important;
+	color: #bedbbb;
+}
+
+.delete {
+	display: none;
+}
